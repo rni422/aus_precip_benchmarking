@@ -8,10 +8,10 @@ Isphording, R.N., L.V. Alexander, M. Bador, D. Green, J. P. Evans, and S. Wales.
 The notebooks are named according to the corresponding figures from the manuscript. Custom functions used within each of the Fig*.ipynb notebooks is defined in the master_functions_bmf.ipynb notebook.
 Functions included are:
   File Input functions:
-    - Get data model names from a user-defined dictionary
-    - Get a subset of models from da user-defined dictionary
-    - Get model data paths
-    - Get data from paths
+    * Get data model names from a user-defined dictionary
+    * Get a subset of models from da user-defined dictionary
+    * Get model data paths
+    * Get data from paths
   Plotting Functions:
     - Truncating a predefined colormap
     - Define vertical bands to shade along a time series
