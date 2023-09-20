@@ -2,6 +2,8 @@
 
 Initial release of the software used for the Regional Climate Model (RCM) Precipitation Benchmarking Framework. 
 
+[![DOI](https://zenodo.org/badge/392496602.svg)](https://zenodo.org/badge/latestdoi/392496602)
+
 The Jupyter Notebooks here were used to complete the main analysis and create the figures for the manuscript:
 Isphording, R.N., L.V. Alexander, M. Bador, D. Green, J. P. Evans, and S. Wales. A Standardized Benchmarking Framework to Assess Downscaled Precipitation Simulations. Accepted in Journal of Climate. in revision. 
 
