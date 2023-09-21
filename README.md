@@ -15,7 +15,7 @@ Functions included are:
   File Input functions:
   
     - Get data model names from a user-defined dictionary
-    - Get a subset of models from da user-defined dictionary
+    - Get a subset of models from a user-defined dictionary
     - Get model data paths
     - Get data from paths
     
