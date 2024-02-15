@@ -1,9 +1,11 @@
 # aus_precip_benchmarking: Jupyter Notebooks (Python) Analysis Files for the CORDEX-Australasia Precipitation Benchmarking
 
-Initial release of the software used for the Regional Climate Model (RCM) Precipitation Benchmarking Framework. 
+Version 1.1 release of the software used for the Regional Climate Model (RCM) Precipitation Benchmarking Framework. 
+
+This code has been updated from v1.0 to address deprecated functionality with Pandas DataFrames and new automation to create a heat map for the Seasonal Cycle Minimum Standard Metric (Figure 4 in the corresponding manuscript).
 
 The Jupyter Notebooks here were used to complete the main analysis and create the figures for the manuscript:
-Isphording, R.N., L.V. Alexander, M. Bador, D. Green, J. P. Evans, and S. Wales. A Standardized Benchmarking Framework to Assess Downscaled Precipitation Simulations. Accepted in Journal of Climate. in revision. 
+Isphording, R.N., L.V. Alexander, M. Bador, D. Green, J. P. Evans, and S. Wales (2023). A Standardized Benchmarking Framework to Assess Downscaled Precipitation Simulations. J Clim. 37, 1089-1110, https://doi.org/10.1175/JCLI-D-23-0317.1. 
 
 The notebooks are named according to the corresponding figures from the manuscript. 
 Custom functions used within each of the Fig*.ipynb notebooks is defined in the master_functions_bmf.ipynb notebook.
@@ -40,5 +42,8 @@ Functions included are:
     - Get the Amplitude of the Annual Cycle at Each Grid Point
     - Get the Phase of the Annual Cycle at Each Grid Point
 
-The notebooks were developed to encourage reuse from the broader climate community and include options not explicitly used within the manuscript (such as seasonal subsetting). 
-Additional explanations for the metrics used can be found within the corresponding manuscript and Jupyter notebooks.  
+The notebooks require a general understanding of Python programming but were developed to encourage reuse from the broader climate and Earth science communities and include options not explicitly used within the manuscript (such as seasonal subsetting).
+
+Unless a user is analyzing the same 24 simulations for the CORDEX-Australasia ensemble used in the manuscript, users will need to revise the gcm_ and rcm_names lists in the master_functions notebook to match their ensemble. Users will also need to edit the Spatiotemporal Boundaries, Data Keywords, and the master path(s) within each Fig* notebook to match their database structure and spatiotemporal specifications. Users will also likely need to change the figure settings based on the size of their ensemble, the range of their values, the region, etc. It's also encouraged to review how masks are applied within the relevant functions in the master_functions notebook if users are incorporating masking over their domain.
+ 
+Additional explanations for the metrics used can be found within the corresponding manuscript and Jupyter notebooks. I encourage users to adapt these scripts to their needs.
