@@ -4,6 +4,8 @@ Version 1.1 release of the software used for the Regional Climate Model (RCM) Pr
 
 This code has been updated from v1.0 to address deprecated functionality with Pandas DataFrames and new automation to create a heat map for the Seasonal Cycle Minimum Standard Metric (Figure 4 in the corresponding manuscript).
 
+[![DOI](https://zenodo.org/badge/392496602.svg)](https://zenodo.org/badge/latestdoi/392496602)
+
 The Jupyter Notebooks here were used to complete the main analysis and create the figures for the manuscript:
 Isphording, R.N., L.V. Alexander, M. Bador, D. Green, J. P. Evans, and S. Wales (2023). A Standardized Benchmarking Framework to Assess Downscaled Precipitation Simulations. J Clim. 37, 1089-1110, https://doi.org/10.1175/JCLI-D-23-0317.1. 
 
@@ -15,7 +17,7 @@ Functions included are:
   File Input functions:
   
     - Get data model names from a user-defined dictionary
-    - Get a subset of models from da user-defined dictionary
+    - Get a subset of models from a user-defined dictionary
     - Get model data paths
     - Get data from paths
     
